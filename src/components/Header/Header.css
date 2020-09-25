@@ -1,0 +1,152 @@
+**{
+    margin-bottom: 0%;
+}
+.allContainer {
+    background-image: url('../../images/Image/Rectangle\ 1.png');
+   height:720px;
+}
+.navBar{
+    margin-left: 7%;
+}
+.logo{
+    height: 50px;
+    width:80px;
+    margin-right: 40px;
+}
+Form{
+    margin-right: 40px;
+}
+#input{
+   
+    width:400px;
+}
+.linkIt{
+    margin-right:40px;
+    color:white;
+    font-weight:600;
+    font-style: italic;
+}
+.linkIt:hover{
+    color:deepskyblue;
+    background-color:deepskyblue;
+    height: 45px;
+    width:auto;
+    border-radius:5px;
+
+}
+.Destination-container{
+    display: flex;
+}
+/* .text-container{
+    margin-top: 200px;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-right: 20px; 
+    border: 1px solid gold;
+} */
+.cardContainer{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 1100px;
+    margin-left:18%;
+    flex-wrap: wrap;
+} 
+.card{
+    /* position: relative; */
+    margin-top: 300px;
+    max-width: 300px;
+    height: 230px;
+    margin:30px 10px;
+    padding:20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3 ease-in-out; 
+}
+.card:hover{
+    height: 470px;
+}
+.cardImg{
+    position: relative;
+    width:260px;
+    height: 260px;
+    top:-50px;
+    left: 8px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+.cardImg img{
+    max-width: 100%;
+    border-radius:4px;
+}
+.content{
+    /* position: relative; */
+    margin-top:-50px;
+    padding:10px 15px;
+    text-align:center;
+    color:#111;
+    display: hidden;
+    opacity: 0;
+    transition:0.3s ease-in-out;
+}
+.content:hover{
+    opacity: 1;
+    margin-top:-40px;
+    display: inline;
+    transition-delay: 0.3s;
+}
+.name-text{
+    /* position: absolute; */
+    font-family: 'Pirata One', cursive;
+    color: deepskyblue;
+    font-size: 30px;
+    bottom: 30px;
+    left: 90px;
+    text-shadow: 2px 2px 2px red;
+}
+.booking-btn{
+    color:wheat;
+    background-color:deepskyblue;
+}
+.details-text{
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 18px;
+}
+
+/* }
+.cardImg{
+    height: 19rem;
+    background-size: 100%;
+    background-position: center;
+    transition:0.5s;
+}
+.cardImg:hover{
+    background-size: 110%;
+   
+}
+
+.sajek{
+    position: absolute;
+    font-family: 'Pirata One', cursive;
+    font-size: 30px;
+    bottom: 30px;
+    left: 90px;
+    text-shadow: 2px 2px 2px red;
+}
+.card{
+    margin-top: 200px;
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 16rem;
+    height: 19rem;
+    margin-right: 18px;
+}
+.card:hover{
+  
+    border: 3px solid goldenrod;
+    
+}  */
