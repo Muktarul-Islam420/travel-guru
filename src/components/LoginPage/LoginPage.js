@@ -163,8 +163,7 @@ const LoginPage = () => {
               </p>
               </div>      
          </form>
-         {/* <p style={{color: 'red'}}>{user.error}</p> */}
-      {/* {user.success &&  <p style={{color: 'green'}}>Your {newUser ?'registration' : 'Logged In'} was successfully</p>} */}
+ 
                 <br/>
                     
                     {
